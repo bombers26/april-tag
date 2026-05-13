@@ -1,0 +1,5 @@
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+pyrealsense2==2.57.7.10387
+pupil-apriltags==1.0.4.post11
+PyYAML==6.0.1

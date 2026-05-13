@@ -1,0 +1,39 @@
+tag_family: tag36h11
+tag_size_m: 0.148
+
+coordinate_system:
+  origin: midpoint_between_floor_tag_centers
+  x_axis: from_tag_0_center_to_tag_2_center
+  y_axis: floor_plane_perpendicular_to_x_axis_toward_standing_area
+  z_axis: vertical_up
+  floor_z_m: 0.0
+
+measurements:
+  measured_tag_black_edge_size_m: 0.148
+  user_reported_floor_inner_edge_gap_m: 0.86
+  strict_center_to_center_distance_m: 1.008
+  image_estimated_floor_tag_center_distance_m: 1.038135831
+  provisional_floor_tag_center_distance_m: 1.008
+  note: "One-time fixed-pose calibration layout: floor tags are physical id0 and id2. The user reported the inner black-edge gap is about 0.86 m; with 0.148 m black edge size, center-to-center distance is 1.008 m. During calibration, the wall id0 must be temporarily covered to avoid duplicate id0 ambiguity."
+  wall_tag_top_black_edge_height_m: 1.705
+  wall_tag_center_height_if_148mm_m: 1.631
+  wall_tag_id3_bottom_black_edge_height_m: 1.5554
+  wall_tag_id3_center_height_from_bottom_if_148mm_m: 1.6294
+  wall_tag_pair_center_distance_m: 0.661
+
+floor_tags:
+  0:
+    center_m: [-0.504, 0.0, 0.0]
+    yaw_deg: 0.0
+  2:
+    center_m: [0.504, 0.0, 0.0]
+    yaw_deg: 0.0
+
+wall_tags_pending:
+  note: "Wall id0 duplicates the floor id0 in the current physical setup. Cover wall id0 during one-time calibration. Use wall id3 for post-calibration height validation; wall tag full x/y world positions are not configured."
+  ids: [3]
+  known_top_black_edge_height_m: 1.705
+  center_height_if_tag_size_0_148_m: 1.631
+  id3_bottom_black_edge_height_m: 1.5554
+  id3_center_height_from_bottom_if_tag_size_0_148_m: 1.6294
+  wall_tag_pair_center_distance_m: 0.661

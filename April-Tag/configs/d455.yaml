@@ -1,0 +1,17 @@
+camera:
+  depth_width: 848
+  depth_height: 480
+  color_width: 1280
+  color_height: 720
+  fps: 30
+  align_depth_to_color: true
+
+apriltag:
+  family: tag36h11
+  expected_ids: [0, 2, 3]
+  tag_size_m: 0.148
+
+capture:
+  warmup_frames: 30
+  frames: 120
+  save_dir: output/detections
